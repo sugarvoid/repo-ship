@@ -22,7 +22,7 @@ local player = Player:new()
 
 
 function love.load()
-    font = love.graphics.newFont("font/mago2.ttf", 16)
+    font = love.graphics.newFont("font/monogram.ttf", 16)
     gamestate = 1
     score = 0
     font:setFilter("nearest")
